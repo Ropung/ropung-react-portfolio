@@ -116,6 +116,7 @@ module.exports = {
   plugins: [
     require("tailwind-scrollbar-hide"),
     require("@tailwindcss/line-clamp"),
+    require("tailwindcss-textshadow"),
     function ({ addVariant }) {
       addVariant("checked-bg", "& input:checked + *");
       addVariant("checked-dot", "& input:checked + * + *");
