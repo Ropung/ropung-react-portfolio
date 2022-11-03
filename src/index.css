@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#root *:focus {
+  -webkit-tap-highlight-color: transparent;
+}
